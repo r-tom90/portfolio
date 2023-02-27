@@ -1,5 +1,6 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
+import backgroundImg from "../assets/headerImage.jpeg";
 import {
   FaFacebook,
   FaGithub,
@@ -15,7 +16,8 @@ const Main = () => {
       <img
         className="h-screen w-full scale-x-[none] object-cover object-left"
         // TODO: Change background Image
-        src="../src/assets/headerImage.jpeg"
+        src={backgroundImg}
+        // src="../../src/assets/headerImage.jpeg"
         // If failure: https://unsplash.com/photos/XMEzTVjlReU
         alt="MacBook half folded down"
       />

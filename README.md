@@ -26,8 +26,8 @@ Project Page:
 
 ### Links
 
-- [View Github Repository]()
-- [View Live Site]()
+- [View Github Repository](https://github.com/r-tom90/portfolio.git)
+- [View Live Site](https://richard-tom-portolio.vercel.app/)
 
 ## My process
 

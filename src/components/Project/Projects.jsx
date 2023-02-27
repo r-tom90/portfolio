@@ -18,7 +18,13 @@ const Projects = () => {
         abilities as a developer.
       </p>
       <div className="grid gap-12 sm:grid-cols-2">
-        <ProjectItem img={projectImg1} title="Description of App" />
+        <ProjectItem
+          img={projectImg1}
+          title="Description of App"
+          stackUsed="React, Tailwind CSS"
+          liveSite="https://richard-tom-portolio.vercel.app/"
+          viewCode="https://github.com/r-tom90/portfolio.git"
+        />
         <ProjectItem
           img={projectImg2}
           title="Clothing Store"
