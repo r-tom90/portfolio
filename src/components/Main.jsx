@@ -28,24 +28,26 @@ const Main = () => {
           </h1>
           <h2 className="flex pt-4 text-2xl text-gray-800 sm:text-3xl">
             I am a
-            <TypeAnimation
-              sequence={[
-                "Front End Developer",
-                1500,
-                "Tech Enthusiast",
-                1500,
-                "Aspiring ",
-                "Aspiring Fullstack Developer",
-                1500,
-                "Aspiring",
-                "Aspiring Blockchain Developer",
-                1500,
-              ]}
-              wrapper="div"
-              cursor={true}
-              repeat={Infinity}
-              style={{ fontSize: "1em", paddingLeft: "5px" }}
-            />
+            <div className="text-[#0097b2]">
+              <TypeAnimation
+                sequence={[
+                  "Front End Developer",
+                  1500,
+                  "Tech Enthusiast",
+                  1500,
+                  "Aspiring ",
+                  "Aspiring Fullstack Developer",
+                  1500,
+                  "Aspiring",
+                  "Aspiring Blockchain Developer",
+                  1500,
+                ]}
+                wrapper="div"
+                cursor={true}
+                repeat={Infinity}
+                style={{ fontSize: "1em", paddingLeft: "5px" }}
+              />
+            </div>
           </h2>
           <div className="flex w-full max-w-[200px] justify-between pt-6 md:max-w-[300px]">
             {/* //TODO: Change Color of Icons with fill */}

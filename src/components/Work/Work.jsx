@@ -18,7 +18,7 @@ const Work = () => {
             key={idx}
             year={item.year}
             title={item.title}
-            duration={item.duration}
+            company={item.company}
             details={item.details}
           />
         ))}

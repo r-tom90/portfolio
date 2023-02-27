@@ -1,4 +1,5 @@
 import React from "react";
+import Profile from "../assets/Profile.png";
 
 const About = () => {
   return (
@@ -8,8 +9,8 @@ const About = () => {
           About Me
         </h1>
         <img
-          className="h-auto w-[15%] rounded-full bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-gray-400 to-[#001b5e] md:w-[10%]"
-          src="../src/assets/Profile.png"
+          className="h-auto w-[15%] rounded-3xl bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-[#0097b2] to-[#030720] md:w-[10%]"
+          src={Profile}
           alt="Profile picture"
         />
 
