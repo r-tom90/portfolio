@@ -41,8 +41,6 @@ Project Page:
 - [React](https://reactjs.org/) - JS library
 - [Vite](https://vitejs.dev/) - React Bootstrap
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
 - Use of React functional components through bootstrapping Vite.
@@ -57,9 +55,11 @@ Project Page:
 
 ## Author
 
-- Website - [RichardTom]()
-- LinkedIn - [@richard-tom-81b0956b](https://www.linkedin.com/in/richard-tom-81b0956b/)
+- Website - [Portfolio deployed with vercel](https://richard-tom-portolio.vercel.app/)
+- GitHub - [@r-tom90](https://github.com/r-tom90)
+- LinkedIn - [@richard-tom](https://www.linkedin.com/in/richard-tom-81b0956b/)
 - Twitter - [@CryptoFallen](https://twitter.com/CryptoFallen)
+- Medium - [@richardtom](https://medium.com/@richardtom_79153)
 
 ## Acknowledgments
 

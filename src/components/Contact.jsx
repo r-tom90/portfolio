@@ -2,6 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
+    // TODO: Adjust dimension
     <div
       id="contact"
       className="m-auto h-screen max-w-[1040px] p-4 py-10 md:pl-20"

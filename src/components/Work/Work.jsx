@@ -9,7 +9,7 @@ const Work = () => {
       className="m-auto flex h-screen w-full max-w-[1040px] flex-col items-center justify-center p-4 py-16"
     >
       <div className="h-auto w-full">
-        <h1 className="mb-2 text-center text-4xl font-bold text-[#001b5e]">
+        <h1 className="mb-5 text-center text-4xl font-bold text-[#001b5e]">
           Work
         </h1>
         {data.map((item, idx) => (

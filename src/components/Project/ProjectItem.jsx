@@ -3,7 +3,7 @@ import React from "react";
 const ProjectItem = ({ img, title, stackUsed, liveSite, viewCode }) => {
   return (
     // TODO: Change Color of card
-    <div className="group relative flex h-auto w-[100%] items-center justify-center rounded-xl from-rose-400 via-fuchsia-500 to-indigo-500 shadow-xl shadow-gray-400 hover:bg-gradient-to-r">
+    <div className="group relative flex h-auto w-full items-center justify-center rounded-xl from-rose-400 via-fuchsia-500 to-indigo-500 shadow-xl shadow-gray-400 hover:bg-gradient-to-r">
       <img src={img} alt="/" className="rounded-xl group-hover:opacity-20" />
       <div className="absolute top-[50%] left-[50%] hidden translate-x-[-50%] translate-y-[-50%] text-center group-hover:block ">
         <h3 className="text-lg font-semibold">{title}</h3>

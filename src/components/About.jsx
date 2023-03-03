@@ -3,9 +3,9 @@ import Profile from "../assets/Profile.png";
 
 const About = () => {
   return (
-    <div id="about" className="h-screen w-full">
+    <div id="about" className="h-screen w-full ">
       <div className="m-auto flex h-full w-full max-w-[1040px] flex-col items-center justify-center">
-        <h1 className="mb-4 text-center text-4xl font-bold text-[#001b5e]">
+        <h1 className="mb-5 text-center text-4xl font-bold text-[#001b5e]">
           About Me
         </h1>
         <img
