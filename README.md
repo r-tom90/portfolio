@@ -49,7 +49,7 @@ Project Page:
 ### Continued development
 
 - Implementation of:
-  - Dark Mode.
+  - [x] Dark Mode
   - Blogging.
   - Web3 Authentication with NFT.
 

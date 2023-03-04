@@ -3,18 +3,18 @@ import Profile from "../assets/Profile.png";
 
 const About = () => {
   return (
-    <div id="about" className="h-screen w-full ">
+    <div id="about" className="h-screen w-full dark:bg-gray-900">
       <div className="m-auto flex h-full w-full max-w-[1040px] flex-col items-center justify-center">
-        <h1 className="mb-5 text-center text-4xl font-bold text-[#001b5e]">
+        <h1 className="mb-5 text-center text-4xl font-bold text-[#001b5e] dark:text-[#0097b2]">
           About Me
         </h1>
         <img
-          className="h-auto w-[15%] rounded-3xl bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-[#0097b2] to-[#030720] md:w-[10%]"
+          className="h-auto w-[15%] from-[#0097b2] to-[#030720] dark:rounded-3xl dark:bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] md:w-[10%]"
           src={Profile}
           alt="Profile picture"
         />
 
-        <div className="max-w-[1040px] p-4 text-center md:p-6">
+        <div className="max-w-[1040px] p-4 text-center dark:text-stone-300 md:p-6">
           <p className=" mb-4">
             I'm a skilled and passionate front-end developer, driven by a desire
             to create exceptional digital experiences. With a focus on building

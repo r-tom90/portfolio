@@ -21,12 +21,12 @@ const Main = () => {
         // If failure: https://unsplash.com/photos/XMEzTVjlReU
         alt="MacBook half folded down"
       />
-      <div className="absolute top-0 left-0 h-screen w-full bg-white/60">
+      <div className="absolute top-0 left-0 h-screen w-full bg-white/60 dark:bg-gray-900/60">
         <div className="m-auto flex h-full w-full max-w-[700px] flex-col items-center justify-center lg:items-start">
-          <h1 className="text-4xl font-bold text-gray-800 sm:text-5xl">
+          <h1 className="text-4xl font-bold text-gray-800 dark:text-stone-300 sm:text-5xl">
             I'm Richard Tom
           </h1>
-          <h2 className="flex pt-4 text-2xl text-gray-800 sm:text-3xl">
+          <h2 className="flex pt-4 text-2xl text-gray-800 dark:text-stone-300 sm:text-3xl">
             I am a
             <div className="text-[#0097b2]">
               <TypeAnimation
@@ -52,26 +52,26 @@ const Main = () => {
           <div className="flex w-full max-w-[200px] justify-between pt-6 md:max-w-[300px]">
             {/* //TODO: Change Color of Icons with fill */}
             <a href="https://github.com/r-tom90" target="blank">
-              <FaGithub className="h-auto w-5 cursor-pointer fill-gray-800 duration-1000 hover:fill-[#424242] md:scale-125" />
+              <FaGithub className="h-auto w-5 cursor-pointer fill-gray-800 duration-1000 hover:fill-[#424242] dark:fill-stone-300 md:scale-125" />
             </a>
             <a
               href="https://www.linkedin.com/in/richard-tom-81b0956b/"
               target="blank"
             >
-              <FaLinkedin className="h-auto w-5 cursor-pointer fill-gray-800 duration-1000 hover:fill-[#0077B5] md:scale-125" />
+              <FaLinkedin className="h-auto w-5 cursor-pointer fill-gray-800 duration-1000 hover:fill-[#0077B5] dark:fill-stone-300 md:scale-125" />
             </a>
             <a href="https://twitter.com/CryptoFallen" target="blank">
-              <FaTwitter className="h-auto w-5 cursor-pointer fill-gray-800 duration-1000 hover:fill-[#1DA1F2] md:scale-125" />
+              <FaTwitter className="h-auto w-5 cursor-pointer fill-gray-800 duration-1000 hover:fill-[#1DA1F2] dark:fill-stone-300 md:scale-125" />
             </a>
             <a href="https://medium.com/@richardtom_79153" target="blank">
-              <FaMedium className="h-auto w-5 cursor-pointer fill-gray-800  duration-1000 hover:bg-black hover:fill-white md:scale-125" />
+              <FaMedium className="h-auto w-5 cursor-pointer fill-gray-800 duration-1000  hover:bg-black hover:fill-white dark:fill-stone-300 md:scale-125" />
             </a>
             {/* <a href="http://twitter.com" target="blank">
-              <FaInstagram className="h-auto w-5 cursor-pointer fill-gray-800  duration-1000 hover:fill-[#E1306C] md:scale-125" />
+              <FaInstagram className="h-auto w-5 cursor-pointer fill-gray-800 dark:fill-stone-300  duration-1000 hover:fill-[#E1306C] md:scale-125" />
             </a> */}
             {/* <a href="http://twitter.com" target="blank">
                   <FaFacebook
-                    className="w-5 h-auto md:scale-125 cursor-pointer fill-gray-800 hover:fill-[#0077B5] duration-1000"
+                    className="w-5 h-auto md:scale-125 cursor-pointer fill-gray-800 dark:fill-stone-300 hover:fill-[#0077B5] duration-1000"
                   />
                 </a> */}
           </div>

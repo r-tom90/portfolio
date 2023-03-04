@@ -8,6 +8,7 @@ import {
 } from "react-icons/ai";
 import { BsGrid, BsPerson } from "react-icons/bs";
 import { GiCheckboxTree } from "react-icons/gi";
+import ToggleTheme from "./ToggleTheme";
 
 const Sidenav = () => {
   const [nav, setNav] = useState(false);
@@ -89,42 +90,43 @@ const Sidenav = () => {
         ""
       )}
 
-      <div className="fixed top-[25%] z-10 hidden md:block">
-        <div className="flex flex-col">
+      <div className="fixed top-[2%] z-10 hidden w-screen md:block">
+        <div className="flex justify-center">
+          <ToggleTheme />
           <a
             href="#main"
-            className="group m-2 cursor-pointer rounded-full bg-gray-100 p-4 shadow-lg shadow-gray-400 duration-300 ease-in hover:scale-110"
+            className="group m-2 cursor-pointer rounded-full bg-gray-700 p-4 text-neutral-100 shadow-lg shadow-gray-400 duration-300 ease-in hover:scale-110 dark:bg-gray-100 dark:text-stone-800"
           >
             {/* Change hover fill */}
             <AiOutlineHome className="h-auto w-5 duration-1000 group-hover:fill-[#0097b2]" />
           </a>
           <a
             href="#about"
-            className="group m-2 cursor-pointer rounded-full bg-gray-100 p-4 shadow-lg shadow-gray-400 duration-300 ease-in hover:scale-110"
+            className="group m-2 cursor-pointer rounded-full bg-gray-700 p-4 text-neutral-100 shadow-lg shadow-gray-400 duration-300 ease-in hover:scale-110 dark:bg-gray-100 dark:text-stone-800"
           >
             <BsPerson className="h-auto w-5 duration-1000 group-hover:fill-[#0097b2]" />
           </a>
           <a
             href="#skills"
-            className="group m-2 cursor-pointer rounded-full bg-gray-100 p-4 shadow-lg shadow-gray-400 duration-300 ease-in hover:scale-110"
+            className="group m-2 cursor-pointer rounded-full bg-gray-700 p-4 text-neutral-100 shadow-lg shadow-gray-400 duration-300 ease-in hover:scale-110 dark:bg-gray-100 dark:text-stone-800"
           >
             <GiCheckboxTree className="h-auto w-5 duration-1000 group-hover:fill-[#0097b2]" />
           </a>
           <a
             href="#work"
-            className="group m-2 cursor-pointer rounded-full bg-gray-100 p-4 shadow-lg shadow-gray-400 duration-300 ease-in hover:scale-110"
+            className="group m-2 cursor-pointer rounded-full bg-gray-700 p-4 text-neutral-100 shadow-lg shadow-gray-400 duration-300 ease-in hover:scale-110 dark:bg-gray-100 dark:text-stone-800"
           >
             <BsGrid className="h-auto w-5 duration-1000 group-hover:fill-[#0097b2]" />
           </a>
           <a
             href="#projects"
-            className="group m-2 cursor-pointer rounded-full bg-gray-100 p-4 shadow-lg shadow-gray-400 duration-300 ease-in hover:scale-110"
+            className="group m-2 cursor-pointer rounded-full bg-gray-700 p-4 text-neutral-100 shadow-lg shadow-gray-400 duration-300 ease-in hover:scale-110 dark:bg-gray-100 dark:text-stone-800"
           >
             <AiOutlineProject className="h-auto w-5 duration-1000 group-hover:fill-[#0097b2]" />
           </a>
           <a
             href="#contact"
-            className="group m-2 cursor-pointer rounded-full bg-gray-100 p-4 shadow-lg shadow-gray-400 duration-300 ease-in hover:scale-110"
+            className="group m-2 cursor-pointer rounded-full bg-gray-700 p-4 text-neutral-100 shadow-lg shadow-gray-400 duration-300 ease-in hover:scale-110 dark:bg-gray-100 dark:text-stone-800"
           >
             <AiOutlineMail className="h-auto w-5 duration-1000 group-hover:fill-[#0097b2]" />
           </a>

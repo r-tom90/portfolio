@@ -5,6 +5,7 @@ import Work from "./components/Work/Work";
 import Projects from "./components/Project/Projects";
 import Contact from "./components/Contact";
 import Skills from "./components/Skills/Skills";
+import ToggleTheme from "./components/ToggleTheme";
 
 function App() {
   return (
